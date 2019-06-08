@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/jam1.0/workspace/TurkeyeArchive/lib/activation.jar"/>
+	<classpathentry kind="lib" path="C:/jam1.0/workspace/TurkeyeArchive/lib/axis.jar"/>
+	<classpathentry kind="lib" path="C:/jam1.0/workspace/TurkeyeArchive/lib/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/jam1.0/workspace/TurkeyeArchive/lib/commons-codec-1.9-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/jam1.0/workspace/TurkeyeArchive/lib/commons-codec-1.9-sources.jar"/>
+	<classpathentry kind="lib" path="C:/jam1.0/workspace/TurkeyeArchive/lib/commons-codec-1.9-tests.jar"/>
+	<classpathentry kind="lib" path="C:/jam1.0/workspace/TurkeyeArchive/lib/commons-codec-1.9-test-sources.jar"/>
+	<classpathentry kind="lib" path="C:/jam1.0/workspace/TurkeyeArchive/lib/commons-discovery-0.2.jar"/>
+	<classpathentry kind="lib" path="C:/jam1.0/workspace/TurkeyeArchive/lib/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/jam1.0/workspace/TurkeyeArchive/lib/commons-io-2.4-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/jam1.0/workspace/TurkeyeArchive/lib/commons-io-2.4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/jam1.0/workspace/TurkeyeArchive/lib/commons-io-2.4-tests.jar"/>
+	<classpathentry kind="lib" path="C:/jam1.0/workspace/TurkeyeArchive/lib/commons-io-2.4-test-sources.jar"/>
+	<classpathentry kind="lib" path="C:/jam1.0/workspace/TurkeyeArchive/lib/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/jam1.0/workspace/TurkeyeArchive/lib/javamail.jar"/>
+	<classpathentry kind="lib" path="C:/jam1.0/workspace/TurkeyeArchive/lib/javax.wsdl_1.6.2.v201012040545.jar"/>
+	<classpathentry kind="lib" path="C:/jam1.0/workspace/TurkeyeArchive/lib/jaxrpc.jar"/>
+	<classpathentry kind="lib" path="C:/jam1.0/workspace/TurkeyeArchive/lib/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="C:/jam1.0/workspace/TurkeyeArchive/lib/org.apache.commons.logging_1.1.1.v201101211721.jar"/>
+	<classpathentry kind="lib" path="C:/jam1.0/workspace/TurkeyeArchive/lib/saaj.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

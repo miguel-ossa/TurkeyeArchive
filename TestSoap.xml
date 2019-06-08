@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice>
+	<XmlVersionID>1.0</XmlVersionID>
+	<StyleSheet>general_guid</StyleSheet>
+	<ProfileID>TEMELFATURA</ProfileID>
+	<ID>GIB2015000000002</ID>
+	<UUID>F47AC10B-58CC-4372-A567-0E02B2C3D473</UUID>
+	<IssueDate>2015-11-02</IssueDate>
+	<IssueTime>09:30:00</IssueTime>
+	<InvoiceTypeCode>SATIS</InvoiceTypeCode>
+	<Note>Fatura Notu</Note>
+	<DocumentCurrencyCode>TRY</DocumentCurrencyCode>
+	<LineCountNumeric>1</LineCountNumeric>
+	<DespatchDocumentReference>
+		<ID>0000000000001750</ID>
+		<IssueDate>2015-11-02</IssueDate>
+	</DespatchDocumentReference>
+	<AdditionalDocumentReference>
+			<ID>gonderimSekli</ID>
+			<IssueDate>2015-11-02</IssueDate>
+			<DocumentType>ELEKTRONIK</DocumentType>
+	</AdditionalDocumentReference>
+	<AdditionalDocumentReference>
+			<ID>duzenlemeTarihi</ID>
+			<IssueDate>2015-11-02</IssueDate>
+			<DocumentType>09:30:00</DocumentType>
+	</AdditionalDocumentReference>
+	<AccountingSupplierParty>
+		<Party>
+			<WebsiteURI>http://www.aaa.com.tr/</WebsiteURI>
+			<PartyIdentification>
+				<ID schemeID="VKN">1288331521</ID>
+			</PartyIdentification>
+			<PartyName>
+				<Name>AAA Anonim Sirketi</Name>
+			</PartyName>
+			<PostalAddress>
+				<ID>1234567890</ID>
+				<StreetName>Papatya Caddesi Yasemin Sokak</StreetName>
+				<BuildingNumber>21</BuildingNumber>
+				<CitySubdivisionName>Besiktas</CitySubdivisionName>
+				<CityName>Istanbul</CityName>
+				<PostalZone>34100</PostalZone>
+				<Country>
+					<Name>coco</Name>
+				</Country>
+			</PostalAddress>
+			<PartyTaxScheme>
+				<TaxScheme>
+					<Name>Bler</Name>
+				</TaxScheme>
+			</PartyTaxScheme>
+			<Contact>
+				<Telephone>(212) 925 51515</Telephone>
+				<Telefax>(212) 925505015</Telefax>
+				<ElectronicMail>aa@aaa.com.tr</ElectronicMail>
+			</Contact>
+		</Party>
+	</AccountingSupplierParty>
+	<AccountingCustomerParty>
+		<Party>
+			<WebsiteURI/>
+			<PartyIdentification>
+				<ID schemeID="TCKN">12345678901</ID>
+			</PartyIdentification>
+			<PostalAddress>
+				<ID>ATATےK MAH.</ID>
+				<Room>1</Room>
+				<StreetName>6. Sokak</StreetName>
+				<BuildingNumber>1</BuildingNumber>
+				<CitySubdivisionName>Besiktas</CitySubdivisionName>
+				<CityName>Istanbul</CityName>
+				<PostalZone>34100</PostalZone>
+				<Country>
+					<Name>T</Name>
+				</Country>
+			</PostalAddress>
+			<Contact>
+				<ElectronicMail>1234567890@mydn.com.tr</ElectronicMail>
+			</Contact>
+			<Person>
+				<FirstName>Ali</FirstName>
+				<FamilyName>YILMAZ</FamilyName>
+			</Person>
+		</Party>
+	</AccountingCustomerParty>
+	<TaxTotal>
+		<TaxAmount currencyID="TRY">2.73</TaxAmount>
+		<TaxSubtotal>
+			<TaxableAmount currencyID="TRY">15.15</TaxableAmount>
+			<TaxAmount currencyID="TRY">2.73</TaxAmount>
+			<TaxCategory>
+				<TaxScheme>
+					<TaxTypeCode>0015</TaxTypeCode>
+				</TaxScheme>
+			</TaxCategory>
+		</TaxSubtotal>
+	</TaxTotal>
+	<LegalMonetaryTotal>
+		<LineExtensionAmount currencyID="TRY">15.15</LineExtensionAmount>
+		<TaxExclusiveAmount currencyID="TRY">15.15</TaxExclusiveAmount>
+		<TaxInclusiveAmount currencyID="TRY">17.88</TaxInclusiveAmount>
+		<PayableAmount currencyID="TRY">17.88</PayableAmount>
+	</LegalMonetaryTotal>
+	<InvoiceLine>
+		<ID>1</ID>
+		<InvoicedQuantity unitCode="C62">1</InvoicedQuantity>
+		<LineExtensionAmount currencyID="TRY">15.15</LineExtensionAmount>
+		<AllowanceCharge>
+			<ChargeIndicator>false</ChargeIndicator>
+			<MultiplierFactorNumeric>0.0</MultiplierFactorNumeric>
+			<Amount currencyID="TRY">0</Amount>
+			<BaseAmount currencyID="TRY">15.15</BaseAmount>
+		</AllowanceCharge>
+		<TaxTotal>
+			<TaxAmount currencyID="TRY">2.73</TaxAmount>
+			<TaxSubtotal>
+				<TaxableAmount currencyID="TRY">15.15</TaxableAmount>
+				<TaxAmount currencyID="TRY">2.73</TaxAmount>
+				<Percent>18.0</Percent>
+				<TaxCategory>
+					<TaxScheme>
+						<Name>KDV</Name>
+						<TaxTypeCode>0015</TaxTypeCode>
+					</TaxScheme>
+				</TaxCategory>
+			</TaxSubtotal>
+		</TaxTotal>
+		<Item>
+			<Name>bicho</Name>
+			<Description>lol</Description>
+		</Item>
+		<Price>
+			<PriceAmount currencyID="TRY">0.15</PriceAmount>
+		</Price>
+	</InvoiceLine>
+</Invoice>
